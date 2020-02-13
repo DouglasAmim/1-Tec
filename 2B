@@ -1,0 +1,129 @@
+1º Atividade 2B
+
+Questão 1:
+
+#include <stdio.h>
+int main(){
+    int idade;
+    float altura,peso;
+    printf("Digite sua Idade\n");
+    scanf("%d", &idade);
+    printf("Digite a sua Altura\n");
+    scanf("%f", &altura);
+    printf("Digite o seu Peso\n");
+    scanf("%f", &peso);
+    printf("sua idade e %d\n",idade);
+    printf("sua altura e %.1f\n", altura);
+    printf("seu peso e %.2f\n", peso);
+    return 0;
+}
+
+Questão 2:
+
+#include <stdio.h>
+int main (){
+    int num1,num2;
+    int soma,sub,mult;
+    float div;
+    printf("Digite o Primeiro Numero\n");
+    scanf("%d", &num1);
+    printf("Digite o Segundo Numero\n");
+    scanf("%d", &num2);
+    soma=num1+num2;
+    div=num1/num2;
+    sub=num1-num2;
+    mult=num1*num2;
+    printf("Soma: %d\n",soma);
+    printf("Subtracao: %d\n", sub);
+    printf("Divisao: %.2f\n", div);
+    printf("Multiplicacao: %d\n", mult);
+    
+    return 0:
+}
+
+Questão 3:
+  
+  #include <stdio.h>
+int main (){
+    int num1,num2;
+    int sub; 
+    printf("Digite o Ano do seu Nascimento\n");
+    scanf("%d", &num1);
+    printf("O Ano Digite o Ano Regente\n");
+    scanf("%d", &num2);
+    sub=num2-num1;
+    printf("Sua Idade e %d\n",sub);
+    
+    
+    return 0;
+}
+
+2º Atividade 2B 
+
+Questão 1:
+
+#include <stdio.h>
+int main(){
+    float base,altura,area;
+    printf("Digite a Base\n");
+    scanf("%f", &base);
+    printf("Digite a Altura\n");
+    scanf("%f", &altura);
+    area=(base*altura)/2;
+    printf("A Area e %.2f\n", area);
+    return 0;
+}
+
+Questão 2:
+
+#include <stdio.h>
+int main(){
+    float vf,imp,rev,total;
+    printf("Digite o Preco de Fabrica\n");
+    scanf("%f", &vf);
+    imp=vf*0.45;
+    rev=vf*0.28;
+    total=imp+rev+vf;
+    printf("O Preco Total: %.2f\n", total);
+    return 0;
+}
+
+Questão 3:
+
+#include <stdio.h>
+int main (){
+    int cavalo,haras;
+    printf("Digite a Quantidade de Cavalos\n");
+    scanf("%d", &cavalo);
+    haras=cavalo*4;
+    printf("A Quantidade de Ferraduras Necessarias: %d\n", haras);
+    return 0;
+}
+
+Questão 4:
+
+#include <stdio.h>
+int main(){
+    float soma,pao,sal,total,soma1;
+    printf("Digite a Quantidade de Salgados\n");
+    scanf("%f", &sal);
+    printf("Digite a Quantidade de Paos\n");
+    scanf("%f", &pao);
+    soma=sal*1.50;
+    soma1=pao*0.25;
+    total=soma+soma1;
+    printf("O Preco Total:  %.2f\n", total);
+    return 0;
+}
+
+Questão 5:
+
+#include <stdio.h>
+int main(){
+    int idade,soma;
+    printf("Digite a sua Idade\n");
+    scanf("%d", &idade);
+    soma=idade*365;
+    printf("Voce Ja Viveu %d Dias\n", soma);
+    return 0;
+}
