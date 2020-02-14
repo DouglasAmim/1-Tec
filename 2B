@@ -127,3 +127,119 @@ int main(){
     printf("Voce Ja Viveu %d Dias\n", soma);
     return 0;
 }
+
+__________________________________________________________________________
+
+
+1º Trabalho
+
+Questão 1: 
+
+#include <stdio.h>
+int main (){
+    int idade,pessoas,nascimento;
+    float altura,peso;
+    printf("Digite  sua Idade\n");
+    scanf("%d", &idade);
+    printf("Digite  seu Peso\n");
+    scanf("%f", &peso);
+    printf("Digite  sua Altura\n");
+    scanf("%f", &altura);
+    printf("Digite a Quantidade de Pessoas que Moram com Voce\n");
+    scanf("%d", &pessoas);
+    printf("Digite sua Data de Nascimento\n");
+    scanf("%d", &nascimento);
+    printf("Sua Idade:  %d\n", idade);
+    printf("Seu peso:  %.2f\n", peso);
+    printf("Sua Altura:  %.1f\n", altura);
+    printf("Quantidade de Pessoas que Vivem com Voce: %d\n", pessoas);
+    printf("Sua Data de Nascimento:  %d\n", nc);
+    return 0;
+    
+}
+
+Questão 2:
+
+#include <stdio.h>
+int main (){
+    float n1, n2, n3, n4, n5, n6, total;
+    printf("Digite o Primeiro Numero\n");
+    scanf("%f", &n1);
+    printf("Digite o Segundo Numero\n");
+    scanf("%f", &n2);
+    printf("Digite o Terceiro Numero\n");
+    scanf("%f", &n3);
+    printf("Digite o Quarto Numero\n");
+    scanf("%f", &n4);
+    printf("Digite o Quinto Numero\n");
+    scanf("%f", &n5);
+    printf("Digite o Sexto Numero\n");
+    scanf("%f", &n6);
+    total=(n1+n2+n3+n4+n5+n6)/6;
+    printf("Sua Media e %.1f\n", total);
+    return 0;
+}
+
+Questão 3:
+
+#include <stdio.h>
+int main (){
+    int nu;
+    printf("Digite o numero\n");
+    scanf("%d", &nu);
+    float a, b, c, d, e, f, g, h, i, j, k;
+    a=nu*0;
+    b=nu*1;
+    c=nu*2;
+    d=nu*3;
+    e=nu*4;
+    f=nu*5;
+    g=nu*6;
+    h=nu*7;
+    i=nu*8;
+    j=nu*9;
+    k=nu*10;
+    printf(" %d*0= %1.f\n",nu,a);
+    printf(" %d*1= %1.f\n",nu,b);
+    printf(" %d*2= %1.f\n",nu,c);
+    printf(" %d*3= %1.f\n",nu,d);
+    printf(" %d*4= %1.f\n",nu,e);
+    printf(" %d*5= %1.f\n",nu,f);
+    printf(" %d*6= %1.f\n",nu,g);
+    printf(" %d*7= %1.f\n",nu,h);
+    printf(" %d*8= %1.f\n",nu,i);
+    printf(" %d*9= %1.f\n",nu,j);
+    printf(" %d*10= %1.f\n",nu,k);
+    return 0;
+    
+}
+
+Questão 4:
+
+#include <stdio.h>
+int main (){
+   int min, seg;
+    printf("Digite os Segundos\n");
+    scanf("%d", &seg);
+    min=seg/60;
+    printf("Total de Minutos: %d",min);
+    return 0;   
+}
+
+Questão 5:
+
+#include <stdio.h>
+int main (){
+    int c;
+    float k,f;
+    printf("Digite o Grau em Celsius\n");
+    scanf("%d", &c);
+    k=c+273.15;
+    f=1.8*c+32;
+    printf(" Kelvin %.2f\n",k);
+    printf(" Fahrenheit %.2f\n",f);
+    return 0;
+}
+
+
+
