@@ -241,5 +241,107 @@ int main (){
     return 0;
 }
 
+_____________________________________________________________________
+
+2º Trabalho 2B
+
+1º Questão
+
+#include <stdio.h>
+int main(){
+	float salario_fixo,salario_vendas;
+	printf("Digite o Salario Fixo do Vendedor: ");
+		scanf("%f",&salario_fixo);
+	printf("Digite o Total de Vendas: ");
+		scanf("%f",&salario_vendas);
+	printf("Salario Total: %.2f",salario_fixo+(salario_vendas*0.15));	
+	
+	return 0;
+}
+
+#include <stdio.h>
+int main (){
+    float Salario, Vendas;
+    float Porcentagem, Total;
+    printf("Digite o seu Salario\n");
+    scanf("%f", &Salario);
+    printf("Digite o Total de Vendas\n");
+    scanf("%f", &Vendas);
+    Porcentagem=Vendas*0.15;
+    Total=Porcentagem+Salario;
+    printf("O Total E: %.2f\n", Total);
+    return 0;
+    }
+
+2º Questão
+
+#include <stdio.h>
+int main (){
+    int km,combustivel;
+    printf("Digite a Quantidade de Km por 1L de Combustivel \n");
+    	scanf("%d",&km);
+    printf("Digite a Quantidade de Litros de Combustivel\n ");
+    	scanf("%d",&combustivel);
+    printf("A Media de Km por Litro e: %d Km", km/combustivel);
+    return 0;
+    }
+    
+    3º Questão  
+    
+    #include <stdio.h>
+int main (){
+    int min,seg,hr;
+    printf("Digite a Quantidade de Segundos\n");
+    scanf("%d", &seg);
+    min=seg/60;
+    hr=min/60;
+    printf("A Quantidade de Segundos Sao: %d\n", seg);
+    printf("A quantidade de Minutos Sao: %d\n", min);
+    printf("A quantidade de Horas Sao: %d\n", hr);
+    return 0;    
+}
+
+4º Questão
+
+#include <stdio.h>
+int main (){
+	int total;
+	printf("Digite o Valor Total\n");
+		scanf("%d", &total);
+	// Tô adorando essa ideia de poder fazer calculo no "printf"
+	printf("O Total de Notas de Cem e %d\n",total/100);
+	printf("O Total de Notas de Cinquenta e %d\n",(total%100)/50);
+	printf("O Total de Notas de Vinte e %d\n",((total%100)%50)/20);
+	printf("O Total de Notas de Dez e %d\n",(((total%100)%50)%20)/10);	
+	printf("O Total de Notas de Cinco e %d\n",((((total%100)%50)%20)%10)/5);	
+	printf("O Total de Notas de Dois e %d\n",(((((total%100)%50)%20)%10)%5)/2);	
+	printf("O Total de Notas de Um e %d\n",((((((total%100)%50)%20)%10)%5)%2)/1);
+	return 0;
+	
+}
+
+5º Questão
+
+#include <stdio.h>
+int main(){
+	float a,b,c;
+	printf("Digite o Numero do Ponto A:\n");
+		scanf("%f",&a);
+	printf("Digite o Numero do Ponto B:\n");
+		scanf("%f",&b);
+	printf("Digite o Numero do Ponto C:\n");
+		scanf("%f",&c);
+	
+	printf("A Area do Triangulo Retangulo e: %.2f\n",(a*c)/2);
+	printf("A Area do Circulo do Raio R: %.2f\n", 3.14*(c*c));
+	printf("A Area do Trapezio E: %.2f\n",(a+b)*c/2);
+	printf("A Area do Quadrado E: %.2f\n",b*b);
+	printf("A Area do Retangulo E: %.2f\n",a*b);
+
+	return 0;
+	}
+
+
+
 
 
